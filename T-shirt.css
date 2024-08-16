@@ -291,6 +291,7 @@ button:hover {
 
 .card img {
   width: 100%;
+  border-radius: 20px;
   transition: box-shadow 1s;
 }
 
@@ -556,6 +557,9 @@ i.fa-brands.fa-facebook-f {
     margin-top: 30px;
   }
   
+  .hero .icons {
+    font-size: 14px;
+}
 
   .header .sub-hero {
     display: flex;
@@ -594,9 +598,13 @@ i.fa-brands.fa-facebook-f {
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
 
+
+
     .sub-hero.active {
       display: flex;
     }
+
+
 
     .content ul {
       flex-direction: column;
@@ -1081,7 +1089,7 @@ i.fa-brands.fa-facebook-f {
     padding-right: 20px;
     line-height: 40px;
     margin-bottom: 30px;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .s9-box p {
@@ -1222,6 +1230,7 @@ i.fa-brands.fa-facebook-f {
 
   .s9-img {
     width: 40%;
+    top: -100px;
   }
 
   .s9-img img {
