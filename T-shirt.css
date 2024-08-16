@@ -580,7 +580,11 @@ i.fa-brands.fa-facebook-f {
     }
 
     .content ul li {
+      font-size: 12px;
       margin: 5px 0;
+    }
+    .content ul li img {
+      width: 8px;
     }
   }
 
@@ -630,7 +634,7 @@ i.fa-brands.fa-facebook-f {
   }
 
   .section-2 button {
-    padding: 8px 25px;
+    padding: 8px 10px;
     font-size: 10px;
     width: 80%;
     margin-bottom: 25px;
