@@ -578,7 +578,7 @@ i.fa-brands.fa-facebook-f {
     align-items: center;
     transition: transform 0.4s ease;
   }
-  
+
   .toggle-button {
     display: none;
     position: absolute;
@@ -587,16 +587,16 @@ i.fa-brands.fa-facebook-f {
     right: 10px;
     cursor: pointer;
   }
-  
+
   .toggle-button i {
     font-size: 24px;
   }
-  
+
   @media (max-width: 1152px) {
     .toggle-button {
       display: block;
     }
-  
+
     .sub-hero {
       display: none;
       flex-direction: column;
@@ -611,38 +611,37 @@ i.fa-brands.fa-facebook-f {
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       transition: right 0.5s ease;
     }
-  
+
     .sub-hero.active {
       display: flex;
       right: 0;
     }
-  
+
     .toggle-button.active i::before {
-      content: "\f00d"; 
+      content: "\f00d";
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
     }
-  
+
     .content ul {
       flex-direction: column;
       align-items: flex-start;
       padding: 30px 0px 30px 30px;
     }
-  
+
     .icons {
       padding: 10px;
     }
-  
+
     .content ul li {
       font-size: 12px;
       margin: 5px 0;
     }
-  
+
     .content ul li img {
       width: 8px;
     }
   }
-  
 
   .hero {
     padding: 20px 0px;
@@ -841,8 +840,9 @@ i.fa-brands.fa-facebook-f {
   }
 
   .s9-box input {
-    padding: 10px 55px;
+    padding: 10px 45px;
     font-size: 10px;
+    width: 90%;
   }
 
   .section-9 button {
@@ -929,7 +929,7 @@ i.fa-brands.fa-facebook-f {
     align-items: center;
     transition: transform 0.4s ease;
   }
-  
+
   .toggle-button {
     display: none;
     position: absolute;
@@ -938,16 +938,16 @@ i.fa-brands.fa-facebook-f {
     right: 10px;
     cursor: pointer;
   }
-  
+
   .toggle-button i {
     font-size: 24px;
   }
-  
+
   @media (max-width: 1152px) {
     .toggle-button {
       display: block;
     }
-  
+
     .sub-hero {
       display: none;
       flex-direction: column;
@@ -960,35 +960,35 @@ i.fa-brands.fa-facebook-f {
       width: 85%;
       height: 100%;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      transition: right 0.5s ease;
+      transition: 1s;
     }
-  
+
     .sub-hero.active {
       display: flex;
       right: 0;
     }
-  
+
     .toggle-button.active i::before {
-      content: "\f00d"; 
+      content: "\f00d";
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
     }
-  
+
     .content ul {
       flex-direction: column;
       align-items: flex-start;
       padding: 30px 0px 30px 30px;
     }
-  
+
     .icons {
       padding: 10px;
     }
-  
+
     .content ul li {
       font-size: 18px;
       margin: 5px 0;
     }
-  
+
     .content ul li img {
       width: 8px;
     }
@@ -1221,10 +1221,11 @@ i.fa-brands.fa-facebook-f {
       align-items: baseline;
       position: absolute;
       z-index: 10;
-      top: 20px;
+      top: 0;
       right: 0;
       background-color: hsl(354, 29%, 93%);
-      width: 100%;
+      width: 85%;
+      height: 100%;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     }
 
